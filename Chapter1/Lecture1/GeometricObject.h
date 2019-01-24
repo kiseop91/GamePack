@@ -5,23 +5,17 @@ namespace jm
 	class GeometricObject
 	{
 	public:
+		vec2 pos;
+		RGB color;
 
-		vec2 pos  ;
-		RGB color ;
-		float size;
-
-		void init(const RGB & _color, const vec2 & _pos, const float & _size)
+		void init(const RGB & _color, const vec2 & _pos)
 		{
 			color = _color;
 			pos = _pos;
-			size = _size;
 		}
-		virtual void drawGeometry()
-		{
+		virtual void drawGeometry() const = 0;
 
-		}
-
-		 void draw()
+		void draw()
 		{
 			beginTransformation();
 			{
@@ -31,6 +25,10 @@ namespace jm
 			endTransformation();
 		}
 
+		void update()
+		{
+
+		}
 	};
 
 }

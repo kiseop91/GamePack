@@ -154,6 +154,7 @@
     <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Box.h" />
     <ClInclude Include="Circle.h" />
     <ClInclude Include="DrawFunctions.h" />
     <ClInclude Include="FaceExample.h" />
