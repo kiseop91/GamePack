@@ -71,5 +71,20 @@
     <ClInclude Include="kiseop.h">
       <Filter>Examples</Filter>
     </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseExample.h">
+      <Filter>Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="RotatingStarExample.h">
+      <Filter>Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricObject.h">
+      <Filter>Examples</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

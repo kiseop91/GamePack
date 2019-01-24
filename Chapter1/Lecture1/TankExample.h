@@ -100,18 +100,18 @@ namespace jm
 				if (bv[i] != nullptr) bv[i]->draw();
 			}
 
-			//for (auto it = bv.begin(); it != bv.end(); it++) {
-			//	MyBullet* temp = *it;
-			//		if (temp->center.x > 0.5f)
-			//		{
-			//			if(temp != nullptr)
-			//		    	delete temp;
-			//			temp = nullptr;
-			//			bv.erase(it);
-			//			if (bv.size() == 0)
-			//				break;
-			//		}
-			//}
+			for (auto it = bv.begin(); it != bv.end(); it++) {
+				MyBullet* temp = *it;
+					if (temp->center.x > 0.5f)
+					{
+						if(temp != nullptr)
+					    	delete temp;
+						temp = nullptr;
+						bv.erase(it);
+						if (bv.size() == 0)
+							break;
+					}
+			}
 
 
 

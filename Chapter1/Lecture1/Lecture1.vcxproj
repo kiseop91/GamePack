@@ -104,6 +104,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -153,15 +154,20 @@
     <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Circle.h" />
     <ClInclude Include="DrawFunctions.h" />
     <ClInclude Include="FaceExample.h" />
     <ClInclude Include="Game2D.h" />
+    <ClInclude Include="GeometricObject.h" />
+    <ClInclude Include="MouseExample.h" />
     <ClInclude Include="PrimitivesGallery.h" />
     <ClInclude Include="RGB.h" />
     <ClInclude Include="Colors.h" />
+    <ClInclude Include="RotatingStarExample.h" />
     <ClInclude Include="SolarSystem.h" />
     <ClInclude Include="TankExample.h" />
     <ClInclude Include="Timer.h" />
+    <ClInclude Include="Triangle.h" />
     <ClInclude Include="Vector2.h" />
     <ClInclude Include="Vector3.h" />
     <ClInclude Include="WalkingPerson.h" />
