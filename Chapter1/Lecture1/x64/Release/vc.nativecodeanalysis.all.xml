@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>d:\gamepack\gamedevpracticepackage20181206\chapter1\lecture1</FILEPATH>
+      <FILENAME>vector2.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'jm::Vector2&lt;float&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>jm::Vector2&lt;float&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Vector2@M@jm@@QEAA@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\gamepack\gamedevpracticepackage20181206\chapter1\lecture1</FILEPATH>
+      <FILENAME>game2d.cpp</FILENAME>
+      <LINE>96</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>반환 값이 무시되었습니다. 'getchar'.</DESCRIPTION>
+    <FUNCTION>jm::Game2D::reportErrorAndExit</FUNCTION>
+    <DECORATED>?reportErrorAndExit@Game2D@jm@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\gamepack\gamedevpracticepackage20181206\chapter1\lecture1</FILEPATH>
+      <FILENAME>game2d.cpp</FILENAME>
+      <LINE>205</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>jm::Game2D::getCursorPos</FUNCTION>
+    <DECORATED>?getCursorPos@Game2D@jm@@QEAA?AV?$Vector2@M@2@AEB_N@Z</DECORATED>
+    <FUNCLINE>190</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\gamepack\gamedevpracticepackage20181206\chapter1\lecture1</FILEPATH>
+      <FILENAME>game2d.cpp</FILENAME>
+      <LINE>209</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>jm::Game2D::getCursorPos</FUNCTION>
+    <DECORATED>?getCursorPos@Game2D@jm@@QEAA?AV?$Vector2@M@2@AEB_N@Z</DECORATED>
+    <FUNCLINE>190</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

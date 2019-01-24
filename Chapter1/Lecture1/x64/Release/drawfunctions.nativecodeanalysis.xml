@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\gamepack\gamedevpracticepackage20181206\chapter1\lecture1</FILEPATH>
+      <FILENAME>vector2.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'jm::Vector2&lt;float&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>jm::Vector2&lt;float&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Vector2@M@jm@@QEAA@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\gamepack\gamedevpracticepackage20181206\chapter1\lecture1</FILEPATH>
+      <FILENAME>vector2.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'jm::Vector2&lt;float&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::v1' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>jm::Vector2&lt;float&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Vector2@M@jm@@QEAA@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\gamepack\gamedevpracticepackage20181206\chapter1\lecture1</FILEPATH>
+      <FILENAME>vector2.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'jm::Vector2&lt;float&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>jm::Vector2&lt;float&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Vector2@M@jm@@QEAA@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\gamepack\gamedevpracticepackage20181206\chapter1\lecture1</FILEPATH>
+      <FILENAME>vector2.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'jm::Vector2&lt;float&gt;::&lt;anonymous-tag&gt;::&lt;anonymous-tag&gt;::v0' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>jm::Vector2&lt;float&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Vector2@M@jm@@QEAA@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\gamepack\gamedevpracticepackage20181206\chapter1\lecture1</FILEPATH>
+      <FILENAME>vector2.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'jm::Vector2&lt;float&gt;::&lt;anonymous-tag&gt;::data' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>jm::Vector2&lt;float&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Vector2@M@jm@@QEAA@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
