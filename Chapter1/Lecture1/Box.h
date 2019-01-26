@@ -7,9 +7,14 @@ namespace jm
 	{
 	public:
 		float width, height;
-		void init(const RGB & _color, const vec2 & _pos, const float & _width, const float & _height)
+
+		Box(const RGB & _color, const vec2 & _pos, const float & _width, const float & _dgree, const float & _height)
 		{
-			GeometricObject::init(_color, _pos);
+			init(_color, _pos, _width, _dgree, _height);
+		}
+		void init(const RGB & _color, const vec2 & _pos, const float & _width, const float & _dgree,const float & _height)
+		{
+			GeometricObject::init(_color, _pos, _dgree);
 			height = _height;
 			width = _width;
 		}
