@@ -158,6 +158,7 @@
     <ClInclude Include="Box.h" />
     <ClInclude Include="Circle.h" />
     <ClInclude Include="DrawFunctions.h" />
+    <ClInclude Include="Example.h" />
     <ClInclude Include="FaceExample.h" />
     <ClInclude Include="Game2D.h" />
     <ClInclude Include="GeometricObject.h" />

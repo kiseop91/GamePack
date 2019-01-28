@@ -92,5 +92,8 @@
     <ClInclude Include="GeometricObject.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Example.h">
+      <Filter>Examples</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
