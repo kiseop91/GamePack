@@ -42,6 +42,8 @@ namespace jm
 
 		void update(const float& dt)
 		{
+			static const vec2 gravity = vec2(0.0f, -9.8f);
+			velocity += gravity * dt;
 			center += velocity * dt;
 		}
 	};
@@ -82,7 +84,7 @@ namespace jm
 				bullet->center = tank.center;
 				bullet->center.x += 0.2f;
 				bullet->center.y += 0.1f;
-				bullet->velocity = vec2(2.0f, 0.0f);
+				bullet->velocity = vec2(4.0f, 0.0f);
 				bv.push_back(bullet);
 			}
 

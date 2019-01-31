@@ -27,6 +27,14 @@ namespace jm
 		~Vector2()
 		{
 		}
+		T getDotProduct(const Vector2<T>& v) const
+		{
+			return x * v.x + y * v.y;
+		}
+		T getMagnitude()
+		{
+			return std::sqrt(x*x + y * y);
+		}
 
 		void operator += (const Vector2<T>& v)
 		{
