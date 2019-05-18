@@ -151,10 +151,15 @@
     <ClCompile Include="DrawFunctions.cpp" />
     <ClCompile Include="Game2D.cpp" />
     <ClCompile Include="GeometricObject.cpp" />
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_demo.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Actor.h" />
     <ClInclude Include="Box.h" />
     <ClInclude Include="Circle.h" />
     <ClInclude Include="DrawFunctions.h" />
@@ -162,6 +167,12 @@
     <ClInclude Include="FaceExample.h" />
     <ClInclude Include="Game2D.h" />
     <ClInclude Include="GeometricObject.h" />
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
     <ClInclude Include="MouseExample.h" />
     <ClInclude Include="PrimitivesGallery.h" />
     <ClInclude Include="RGB.h" />

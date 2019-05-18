@@ -5,6 +5,7 @@
 #include "Vector3.h"
 #include <GL/glew.h>
 
+
 namespace jm
 {
 	using vec2 = Vector2<float>;
